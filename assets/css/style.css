@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    width: 100%;
+    background-color: #0078AA;
+    color: white;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+header h1, header ul, header ul li{
+    display: inline;
+}
+
+header li a {
+    margin-left: 10px;
+}
