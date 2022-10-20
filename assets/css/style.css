@@ -1,9 +1,25 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+html {
+    font-size: 14px;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+body {
+    background-color: white;
+}
 
 header {
     width: 100%;
@@ -21,5 +37,42 @@ header h1, header ul, header ul li{
 }
 
 header li a {
-    margin-left: 10px;
+    color: white;
+    padding-left: 20px;
+}
+
+.banner {
+    width: 100%;
+    text-align: center;
+}
+
+.banner h1 {
+    font-family: "Roboto";
+    font-size: 48px;
+    margin: 40px 0 20px 0;
+}
+
+.banner img {
+    width: 70%;
+    border-radius: 8px;
+}
+
+.description {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.description p {
+    line-height: 19px;
+    padding: 0.5px;
+    margin-top: 16px;
+    text-align: justify;
+}
+
+footer {
+    background-color: #3AB4F2;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    
 }
